@@ -1,5 +1,4 @@
 C:\Users\Zilas\source\repos\CSharp-Forms-Projects\CSGOTournamentSystem\obj\Debug\net6.0-windows\CSGOTournamentSystem.csproj.AssemblyReference.cache
-C:\Users\Zilas\source\repos\CSharp-Forms-Projects\CSGOTournamentSystem\obj\Debug\net6.0-windows\CSGOTournamentSystem.Form1.resources
 C:\Users\Zilas\source\repos\CSharp-Forms-Projects\CSGOTournamentSystem\obj\Debug\net6.0-windows\CSGOTournamentSystem.csproj.GenerateResource.cache
 C:\Users\Zilas\source\repos\CSharp-Forms-Projects\CSGOTournamentSystem\obj\Debug\net6.0-windows\CSGOTournamentSystem.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Zilas\source\repos\CSharp-Forms-Projects\CSGOTournamentSystem\obj\Debug\net6.0-windows\CSGOTournamentSystem.AssemblyInfoInputs.cache
@@ -15,3 +14,5 @@ C:\Users\Zilas\source\repos\CSharp-Forms-Projects\CSGOTournamentSystem\obj\Debug
 C:\Users\Zilas\source\repos\CSharp-Forms-Projects\CSGOTournamentSystem\obj\Debug\net6.0-windows\CSGOTournamentSystem.pdb
 C:\Users\Zilas\source\repos\CSharp-Forms-Projects\CSGOTournamentSystem\obj\Debug\net6.0-windows\CSGOTournamentSystem.genruntimeconfig.cache
 C:\Users\Zilas\source\repos\CSharp-Forms-Projects\CSGOTournamentSystem\obj\Debug\net6.0-windows\ref\CSGOTournamentSystem.dll
+C:\Users\Zilas\source\repos\CSharp-Forms-Projects\CSGOTournamentSystem\obj\Debug\net6.0-windows\CSGOTournamentSystem.CTM.resources
+C:\Users\Zilas\source\repos\CSharp-Forms-Projects\CSGOTournamentSystem\obj\Debug\net6.0-windows\CSGOTournamentSystem.Properties.Resources.resources
