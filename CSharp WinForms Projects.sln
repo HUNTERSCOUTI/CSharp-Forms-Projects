@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLite Demo", "SQLite Demo\SQLite Demo.csproj", "{238504BB-86BA-44DE-B164-450286CD58BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSGOTournamentSystem", "CSGOTournamentSystem\CSGOTournamentSystem.csproj", "{1EA344D9-868D-4A46-BCA8-5C12D010CC24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{238504BB-86BA-44DE-B164-450286CD58BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{238504BB-86BA-44DE-B164-450286CD58BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{238504BB-86BA-44DE-B164-450286CD58BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{238504BB-86BA-44DE-B164-450286CD58BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA344D9-868D-4A46-BCA8-5C12D010CC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA344D9-868D-4A46-BCA8-5C12D010CC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA344D9-868D-4A46-BCA8-5C12D010CC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA344D9-868D-4A46-BCA8-5C12D010CC24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
