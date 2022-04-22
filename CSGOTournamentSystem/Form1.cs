@@ -15,7 +15,11 @@ namespace CSGOTournamentSystem
         }
         public void StartFront()
         {
-
+            btnHome.BringToFront();
+            btnCreate.BringToFront();
+            btnOngoing.BringToFront();
+            btnInfo.BringToFront();
+            panel1.BringToFront();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -31,25 +35,30 @@ namespace CSGOTournamentSystem
         private void btnHome_Click(object sender, EventArgs e)
         {
             panelTab.Width = btnHome.Width;
-            panelTab.Top = btnHome.Top;
+            panelTab.Left = btnHome.Left;
         }
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
             panelTab.Width = btnCreate.Width;
-            panelTab.Top = btnCreate.Top;
+            panelTab.Left = btnCreate.Left;
         }
 
-        private void btnActive_Click(object sender, EventArgs e)
+        private void btnOngoing_Click(object sender, EventArgs e)
         {
-            panelTab.Width = btnActive.Width;
-            panelTab.Top = btnActive.Top;
+            panelTab.Width = btnOngoing.Width;
+            panelTab.Left = btnOngoing.Left;
         }
 
         private void btnInfo_Click(object sender, EventArgs e)
         {
             panelTab.Width = btnInfo.Width;
-            panelTab.Top = btnInfo.Top;
+            panelTab.Left = btnInfo.Left;
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

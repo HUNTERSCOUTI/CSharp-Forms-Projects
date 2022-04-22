@@ -21,7 +21,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CTM));
             this.CSGOName = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnActive = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnOngoing = new System.Windows.Forms.Button();
             this.btnInfo = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.btnCreate = new System.Windows.Forms.Button();
@@ -34,7 +35,7 @@
             // 
             // CSGOName
             // 
-            this.CSGOName.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.CSGOName.Font = new System.Drawing.Font("Century Gothic", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.CSGOName.ForeColor = System.Drawing.Color.White;
             this.CSGOName.Location = new System.Drawing.Point(28, 16);
             this.CSGOName.Name = "CSGOName";
@@ -45,7 +46,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.panel1.Controls.Add(this.btnActive);
+            this.panel1.Controls.Add(this.btnExit);
+            this.panel1.Controls.Add(this.btnOngoing);
             this.panel1.Controls.Add(this.btnInfo);
             this.panel1.Controls.Add(this.btnHome);
             this.panel1.Controls.Add(this.btnCreate);
@@ -56,29 +58,41 @@
             this.panel1.Size = new System.Drawing.Size(1509, 84);
             this.panel1.TabIndex = 8;
             // 
-            // btnActive
+            // btnExit
             // 
-            this.btnActive.FlatAppearance.BorderSize = 0;
-            this.btnActive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnActive.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnActive.ForeColor = System.Drawing.Color.White;
-            this.btnActive.Image = ((System.Drawing.Image)(resources.GetObject("btnActive.Image")));
-            this.btnActive.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnActive.Location = new System.Drawing.Point(877, 0);
-            this.btnActive.Name = "btnActive";
-            this.btnActive.Size = new System.Drawing.Size(217, 84);
-            this.btnActive.TabIndex = 9;
-            this.btnActive.Text = "Active";
-            this.btnActive.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnActive.UseVisualStyleBackColor = true;
-            this.btnActive.Click += new System.EventHandler(this.btnActive_Click);
+            this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
+            this.btnExit.Location = new System.Drawing.Point(1465, 0);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(44, 45);
+            this.btnExit.TabIndex = 10;
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnOngoing
+            // 
+            this.btnOngoing.FlatAppearance.BorderSize = 0;
+            this.btnOngoing.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOngoing.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnOngoing.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnOngoing.Image = ((System.Drawing.Image)(resources.GetObject("btnOngoing.Image")));
+            this.btnOngoing.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOngoing.Location = new System.Drawing.Point(877, 0);
+            this.btnOngoing.Name = "btnOngoing";
+            this.btnOngoing.Size = new System.Drawing.Size(217, 84);
+            this.btnOngoing.TabIndex = 9;
+            this.btnOngoing.Text = "Active";
+            this.btnOngoing.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOngoing.UseVisualStyleBackColor = true;
+            this.btnOngoing.Click += new System.EventHandler(this.btnOngoing_Click);
             // 
             // btnInfo
             // 
             this.btnInfo.FlatAppearance.BorderSize = 0;
             this.btnInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInfo.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnInfo.ForeColor = System.Drawing.Color.White;
+            this.btnInfo.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnInfo.Image = ((System.Drawing.Image)(resources.GetObject("btnInfo.Image")));
             this.btnInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnInfo.Location = new System.Drawing.Point(1100, 0);
@@ -96,7 +110,7 @@
             this.btnHome.FlatAppearance.BorderSize = 0;
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHome.ForeColor = System.Drawing.Color.White;
+            this.btnHome.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.Location = new System.Drawing.Point(445, 0);
@@ -113,7 +127,7 @@
             this.btnCreate.FlatAppearance.BorderSize = 0;
             this.btnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCreate.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCreate.ForeColor = System.Drawing.Color.White;
+            this.btnCreate.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnCreate.Image = ((System.Drawing.Image)(resources.GetObject("btnCreate.Image")));
             this.btnCreate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCreate.Location = new System.Drawing.Point(660, 0);
@@ -146,7 +160,7 @@
             // 
             // panelTab
             // 
-            this.panelTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.panelTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(70)))), ((int)(((byte)(150)))));
             this.panelTab.Location = new System.Drawing.Point(445, 82);
             this.panelTab.Name = "panelTab";
             this.panelTab.Size = new System.Drawing.Size(209, 10);
@@ -162,8 +176,10 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.alert);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "CTM";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CSGO Tournament Maker";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -179,8 +195,9 @@
         private Button btnHome;
         private Button btnCreate;
         private Button btnInfo;
-        private Button btnActive;
+        private Button btnOngoing;
         private Label alert;
         private Panel panelTab;
+        private Button btnExit;
     }
 }
